@@ -14,6 +14,13 @@
 		9A2E6C6E2A17EDD30055B935 /* SwiftVeggieSeasonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2E6C6D2A17EDD30055B935 /* SwiftVeggieSeasonsTests.swift */; };
 		9A2E6C782A17EDD30055B935 /* SwiftVeggieSeasonsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2E6C772A17EDD30055B935 /* SwiftVeggieSeasonsUITests.swift */; };
 		9A2E6C7A2A17EDD30055B935 /* SwiftVeggieSeasonsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2E6C792A17EDD30055B935 /* SwiftVeggieSeasonsUITestsLaunchTests.swift */; };
+		9A2E6C872A1BACA80055B935 /* Veggie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2E6C862A1BACA80055B935 /* Veggie.swift */; };
+		9A2E6C892A1BACBD0055B935 /* veggie_data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2E6C882A1BACBD0055B935 /* veggie_data.swift */; };
+		9A2E6C8B2A1BCEE20055B935 /* VeggieCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2E6C8A2A1BCEE20055B935 /* VeggieCard.swift */; };
+		9A2E6C8D2A1BCF200055B935 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2E6C8C2A1BCF200055B935 /* HomeView.swift */; };
+		9A2E6C922A1BD5B50055B935 /* VeggieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2E6C912A1BD5B50055B935 /* VeggieDetailsView.swift */; };
+		9A96ECE42A1E575100214FAC /* TestAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96ECE32A1E575100214FAC /* TestAnimation.swift */; };
+		9ADB43792A1CEA9F00D4588D /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 9ADB43782A1CEA9F00D4588D /* SwiftUIX */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,12 @@
 		9A2E6C732A17EDD30055B935 /* SwiftVeggieSeasonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftVeggieSeasonsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2E6C772A17EDD30055B935 /* SwiftVeggieSeasonsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftVeggieSeasonsUITests.swift; sourceTree = "<group>"; };
 		9A2E6C792A17EDD30055B935 /* SwiftVeggieSeasonsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftVeggieSeasonsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9A2E6C862A1BACA80055B935 /* Veggie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veggie.swift; sourceTree = "<group>"; };
+		9A2E6C882A1BACBD0055B935 /* veggie_data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = veggie_data.swift; sourceTree = "<group>"; };
+		9A2E6C8A2A1BCEE20055B935 /* VeggieCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeggieCard.swift; sourceTree = "<group>"; };
+		9A2E6C8C2A1BCF200055B935 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9A2E6C912A1BD5B50055B935 /* VeggieDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeggieDetailsView.swift; sourceTree = "<group>"; };
+		9A96ECE32A1E575100214FAC /* TestAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ADB43792A1CEA9F00D4588D /* SwiftUIX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +108,9 @@
 		9A2E6C5B2A17EDD20055B935 /* SwiftVeggieSeasons */ = {
 			isa = PBXGroup;
 			children = (
+				9A2E6C902A1BCFDC0055B935 /* Data */,
+				9A2E6C8F2A1BCFCD0055B935 /* UI Components */,
+				9A2E6C8E2A1BCF430055B935 /* Screens */,
 				9A2E6C5C2A17EDD20055B935 /* SwiftVeggieSeasonsApp.swift */,
 				9A2E6C5E2A17EDD20055B935 /* ContentView.swift */,
 				9A2E6C602A17EDD20055B935 /* Assets.xcassets */,
@@ -127,6 +144,33 @@
 			path = SwiftVeggieSeasonsUITests;
 			sourceTree = "<group>";
 		};
+		9A2E6C8E2A1BCF430055B935 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				9A2E6C8C2A1BCF200055B935 /* HomeView.swift */,
+				9A2E6C912A1BD5B50055B935 /* VeggieDetailsView.swift */,
+				9A96ECE32A1E575100214FAC /* TestAnimation.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		9A2E6C8F2A1BCFCD0055B935 /* UI Components */ = {
+			isa = PBXGroup;
+			children = (
+				9A2E6C8A2A1BCEE20055B935 /* VeggieCard.swift */,
+			);
+			path = "UI Components";
+			sourceTree = "<group>";
+		};
+		9A2E6C902A1BCFDC0055B935 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9A2E6C862A1BACA80055B935 /* Veggie.swift */,
+				9A2E6C882A1BACBD0055B935 /* veggie_data.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +187,9 @@
 			dependencies = (
 			);
 			name = SwiftVeggieSeasons;
+			packageProductDependencies = (
+				9ADB43782A1CEA9F00D4588D /* SwiftUIX */,
+			);
 			productName = SwiftVeggieSeasons;
 			productReference = 9A2E6C592A17EDD20055B935 /* SwiftVeggieSeasons.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +262,9 @@
 				Base,
 			);
 			mainGroup = 9A2E6C502A17EDD20055B935;
+			packageReferences = (
+				9ADB43772A1CEA9F00D4588D /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+			);
 			productRefGroup = 9A2E6C5A2A17EDD20055B935 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,7 +307,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A2E6C922A1BD5B50055B935 /* VeggieDetailsView.swift in Sources */,
+				9A2E6C8B2A1BCEE20055B935 /* VeggieCard.swift in Sources */,
+				9A2E6C892A1BACBD0055B935 /* veggie_data.swift in Sources */,
 				9A2E6C5F2A17EDD20055B935 /* ContentView.swift in Sources */,
+				9A2E6C8D2A1BCF200055B935 /* HomeView.swift in Sources */,
+				9A2E6C872A1BACA80055B935 /* Veggie.swift in Sources */,
+				9A96ECE42A1E575100214FAC /* TestAnimation.swift in Sources */,
 				9A2E6C5D2A17EDD20055B935 /* SwiftVeggieSeasonsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -583,6 +639,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9ADB43772A1CEA9F00D4588D /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9ADB43782A1CEA9F00D4588D /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9ADB43772A1CEA9F00D4588D /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9A2E6C512A17EDD20055B935 /* Project object */;
 }
