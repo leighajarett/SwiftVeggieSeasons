@@ -19,7 +19,18 @@
 		9A2E6C8B2A1BCEE20055B935 /* VeggieCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2E6C8A2A1BCEE20055B935 /* VeggieCard.swift */; };
 		9A2E6C8D2A1BCF200055B935 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2E6C8C2A1BCF200055B935 /* HomeView.swift */; };
 		9A2E6C922A1BD5B50055B935 /* VeggieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2E6C912A1BD5B50055B935 /* VeggieDetailsView.swift */; };
-		9A96ECE42A1E575100214FAC /* TestAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96ECE32A1E575100214FAC /* TestAnimation.swift */; };
+		9A39CFE42A67332D00740073 /* TriviaCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A39CFE32A67332D00740073 /* TriviaCard.swift */; };
+		9A39CFE62A67336700740073 /* TriviaDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A39CFE52A67336700740073 /* TriviaDetailsView.swift */; };
+		9A39CFE82A67338600740073 /* GardenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A39CFE72A67338600740073 /* GardenView.swift */; };
+		9A39CFEA2A67339800740073 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A39CFE92A67339800740073 /* SearchView.swift */; };
+		9A39CFEC2A6733A400740073 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A39CFEB2A6733A400740073 /* SettingsView.swift */; };
+		9A39CFEE2A673DE800740073 /* Seasons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A39CFED2A673DE800740073 /* Seasons.swift */; };
+		9A39CFF12A6ADC2D00740073 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A39CFF02A6ADC2D00740073 /* utils.swift */; };
+		9A57F14A2A6EF15000503936 /* PreferredCategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A57F1492A6EF15000503936 /* PreferredCategoriesView.swift */; };
+		9A57F14C2A6EF16800503936 /* SettingsIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A57F14B2A6EF16800503936 /* SettingsIcon.swift */; };
+		9A57F14E2A6EF1AA00503936 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A57F14D2A6EF1AA00503936 /* QuestionView.swift */; };
+		9A57F1502A6EF1D800503936 /* DetailLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A57F14F2A6EF1D800503936 /* DetailLabel.swift */; };
+		9A57F1522A6EF25800503936 /* styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A57F1512A6EF25800503936 /* styles.swift */; };
 		9ADB43792A1CEA9F00D4588D /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 9ADB43782A1CEA9F00D4588D /* SwiftUIX */; };
 /* End PBXBuildFile section */
 
@@ -56,7 +67,18 @@
 		9A2E6C8A2A1BCEE20055B935 /* VeggieCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeggieCard.swift; sourceTree = "<group>"; };
 		9A2E6C8C2A1BCF200055B935 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		9A2E6C912A1BD5B50055B935 /* VeggieDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeggieDetailsView.swift; sourceTree = "<group>"; };
-		9A96ECE32A1E575100214FAC /* TestAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnimation.swift; sourceTree = "<group>"; };
+		9A39CFE32A67332D00740073 /* TriviaCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaCard.swift; sourceTree = "<group>"; };
+		9A39CFE52A67336700740073 /* TriviaDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaDetailsView.swift; sourceTree = "<group>"; };
+		9A39CFE72A67338600740073 /* GardenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenView.swift; sourceTree = "<group>"; };
+		9A39CFE92A67339800740073 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		9A39CFEB2A6733A400740073 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9A39CFED2A673DE800740073 /* Seasons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seasons.swift; sourceTree = "<group>"; };
+		9A39CFF02A6ADC2D00740073 /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		9A57F1492A6EF15000503936 /* PreferredCategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferredCategoriesView.swift; sourceTree = "<group>"; };
+		9A57F14B2A6EF16800503936 /* SettingsIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsIcon.swift; sourceTree = "<group>"; };
+		9A57F14D2A6EF1AA00503936 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		9A57F14F2A6EF1D800503936 /* DetailLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailLabel.swift; sourceTree = "<group>"; };
+		9A57F1512A6EF25800503936 /* styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = styles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +130,7 @@
 		9A2E6C5B2A17EDD20055B935 /* SwiftVeggieSeasons */ = {
 			isa = PBXGroup;
 			children = (
+				9A39CFEF2A6ADC1B00740073 /* Utils */,
 				9A2E6C902A1BCFDC0055B935 /* Data */,
 				9A2E6C8F2A1BCFCD0055B935 /* UI Components */,
 				9A2E6C8E2A1BCF430055B935 /* Screens */,
@@ -149,7 +172,11 @@
 			children = (
 				9A2E6C8C2A1BCF200055B935 /* HomeView.swift */,
 				9A2E6C912A1BD5B50055B935 /* VeggieDetailsView.swift */,
-				9A96ECE32A1E575100214FAC /* TestAnimation.swift */,
+				9A39CFE52A67336700740073 /* TriviaDetailsView.swift */,
+				9A39CFE72A67338600740073 /* GardenView.swift */,
+				9A39CFE92A67339800740073 /* SearchView.swift */,
+				9A39CFEB2A6733A400740073 /* SettingsView.swift */,
+				9A57F1492A6EF15000503936 /* PreferredCategoriesView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -158,6 +185,11 @@
 			isa = PBXGroup;
 			children = (
 				9A2E6C8A2A1BCEE20055B935 /* VeggieCard.swift */,
+				9A39CFE32A67332D00740073 /* TriviaCard.swift */,
+				9A39CFED2A673DE800740073 /* Seasons.swift */,
+				9A57F14B2A6EF16800503936 /* SettingsIcon.swift */,
+				9A57F14F2A6EF1D800503936 /* DetailLabel.swift */,
+				9A57F14D2A6EF1AA00503936 /* QuestionView.swift */,
 			);
 			path = "UI Components";
 			sourceTree = "<group>";
@@ -169,6 +201,15 @@
 				9A2E6C882A1BACBD0055B935 /* veggie_data.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		9A39CFEF2A6ADC1B00740073 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9A39CFF02A6ADC2D00740073 /* utils.swift */,
+				9A57F1512A6EF25800503936 /* styles.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,13 +349,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A2E6C922A1BD5B50055B935 /* VeggieDetailsView.swift in Sources */,
+				9A39CFF12A6ADC2D00740073 /* utils.swift in Sources */,
 				9A2E6C8B2A1BCEE20055B935 /* VeggieCard.swift in Sources */,
+				9A57F14A2A6EF15000503936 /* PreferredCategoriesView.swift in Sources */,
 				9A2E6C892A1BACBD0055B935 /* veggie_data.swift in Sources */,
+				9A39CFE82A67338600740073 /* GardenView.swift in Sources */,
+				9A57F1502A6EF1D800503936 /* DetailLabel.swift in Sources */,
 				9A2E6C5F2A17EDD20055B935 /* ContentView.swift in Sources */,
+				9A57F14C2A6EF16800503936 /* SettingsIcon.swift in Sources */,
+				9A57F14E2A6EF1AA00503936 /* QuestionView.swift in Sources */,
+				9A39CFE42A67332D00740073 /* TriviaCard.swift in Sources */,
 				9A2E6C8D2A1BCF200055B935 /* HomeView.swift in Sources */,
 				9A2E6C872A1BACA80055B935 /* Veggie.swift in Sources */,
-				9A96ECE42A1E575100214FAC /* TestAnimation.swift in Sources */,
+				9A57F1522A6EF25800503936 /* styles.swift in Sources */,
+				9A39CFE62A67336700740073 /* TriviaDetailsView.swift in Sources */,
+				9A39CFEE2A673DE800740073 /* Seasons.swift in Sources */,
+				9A39CFEC2A6733A400740073 /* SettingsView.swift in Sources */,
 				9A2E6C5D2A17EDD20055B935 /* SwiftVeggieSeasonsApp.swift in Sources */,
+				9A39CFEA2A67339800740073 /* SearchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,7 +525,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftVeggieSeasons/Preview Content\"";
-				DEVELOPMENT_TEAM = 49258SYQ77;
+				DEVELOPMENT_TEAM = S8QB4VV633;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -481,6 +533,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -502,7 +555,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftVeggieSeasons/Preview Content\"";
-				DEVELOPMENT_TEAM = 49258SYQ77;
+				DEVELOPMENT_TEAM = S8QB4VV633;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -510,6 +563,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

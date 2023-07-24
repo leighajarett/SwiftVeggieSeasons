@@ -105,7 +105,7 @@ class Veggie {
         self.isFavorite = isFavorite
     }
 
-    var categoryName: String? {
-        return veggieCategoryNames[category]
+    var categoryName: String {
+        return veggieCategoryNames[category] ?? ""
     }
 }

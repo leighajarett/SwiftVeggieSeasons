@@ -12,9 +12,9 @@ struct ContentView: View {
     
     let tabs: [(id: Int, title: String, systemName: String, view: AnyView)] = [
         (1, "Home", "house", AnyView(HomeView())),
-        (2, "My Garden", "book", AnyView(Text("Tab Content 2"))),
-        (3, "Search", "magnifyingglass", AnyView(Text("Tab Content 3"))),
-        (4, "Settings", "gear", AnyView(Text("Tab Content 4")))
+        (2, "My Garden", "book", AnyView(GardenView())),
+        (3, "Search", "magnifyingglass", AnyView(SearchView())),
+        (4, "Settings", "gear", AnyView(SettingsView()))
     ]
 
     var body: some View {

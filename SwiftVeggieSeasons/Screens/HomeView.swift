@@ -8,25 +8,33 @@
 import SwiftUI
 
 struct HomeView: View {
+    @State var preferredCategories: Set<String> = []
+    
     var body: some View{
         NavigationStack {
             ScrollView {
-                ForEach(veggies, id: \.id) { veggie in
-                    NavigationLink(
-                        destination: VeggieDetailsView(veggie: veggie)
-                            .frame(maxHeight: .infinity, alignment: .topLeading)
-//                            .navigationBarTitleDisplayMode(.inline)
-                    ){
+                ForEach(veggies, id: \.id) {veggie in
+                    if(preferredCategories.contains(veggie.categoryName)){
                         VeggieCard(veggie: veggie)
-                        .padding(.bottom)
-                        .padding(.horizontal)
+                            .padding(.bottom)
+                            .padding(.horizontal)
                     }
-                    
                 }
             }
-            .frame(maxHeight: .infinity)
             .navigationBarTitle("In season today")
-            
+            .refreshable {
+                preferredCategories = getPreferredCategories()
+            }
+        }.onAppear{
+            preferredCategories = getPreferredCategories()
         }
+    }
+}
+
+
+
+struct HomeView_Previews: PreviewProvider {
+    static var previews: some View {
+        HomeView()
     }
 }
